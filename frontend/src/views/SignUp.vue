@@ -10,18 +10,7 @@
       />
       <div class="absolute inset-0 bg-slate-950/80"></div>
       <div class="relative flex flex-col justify-between p-12 text-white">
-        <router-link to="/" class="flex items-center gap-3">
-          <svg width="40" height="40" viewBox="0 0 46 46" fill="none">
-            <rect width="46" height="46" rx="12" fill="white" fill-opacity="0.15"/>
-            <rect x="11" y="9" width="5.5" height="28" rx="2.5" fill="white"/>
-            <polygon points="16.5,23 23,23 37,9 30.5,9" fill="white"/>
-            <polygon points="16.5,23 23,23 37,37 30.5,37" fill="white"/>
-          </svg>
-          <div>
-            <p class="text-xl font-black tracking-tight">KSI</p>
-            <p class="text-[9px] font-bold uppercase tracking-[0.3em] text-slate-400">Bangladesh</p>
-          </div>
-        </router-link>
+        <router-link to="/"><KSILogo :dark="true" :size="40" /></router-link>
 
         <div>
           <h2 class="text-4xl font-extrabold leading-tight">Join KSI Bangladesh today</h2>
@@ -126,6 +115,7 @@
 import { ref } from 'vue'
 import { register } from '../api/auth'
 import { useToast } from '../composables/useToast'
+import KSILogo from '../components/KSILogo.vue'
 
 const { addToast } = useToast()
 const sending = ref(false)

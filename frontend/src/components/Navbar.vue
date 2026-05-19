@@ -9,21 +9,8 @@
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
 
       <!-- Logo -->
-      <router-link to="/" class="flex items-center gap-3 select-none">
-        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Blue rounded square background -->
-          <rect width="46" height="46" rx="12" fill="#1A56DB"/>
-          <!-- White K letterform -->
-          <rect x="11" y="9" width="5.5" height="28" rx="2.5" fill="white"/>
-          <polygon points="16.5,23 23,23 37,9 30.5,9" fill="white"/>
-          <polygon points="16.5,23 23,23 37,37 30.5,37" fill="white"/>
-          <!-- Green accent dot — makes logo distinctive -->
-          <circle cx="38.5" cy="37.5" r="4" fill="#22c55e"/>
-        </svg>
-        <div class="flex flex-col leading-none">
-          <span class="text-[22px] font-black tracking-[-0.03em] text-slate-900">KSI</span>
-          <span class="text-[9px] font-bold uppercase tracking-[0.28em] text-primary -mt-0.5">Bangladesh</span>
-        </div>
+      <router-link to="/" class="select-none">
+        <KSILogo />
       </router-link>
 
       <!-- Desktop nav -->
@@ -152,6 +139,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
+import KSILogo from './KSILogo.vue'
 
 const showMobile = ref(false)
 const showSectors = ref(false)

@@ -7,19 +7,7 @@
 
         <!-- Brand -->
         <div class="lg:col-span-1">
-          <div class="flex items-center gap-3">
-            <svg width="42" height="42" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="46" height="46" rx="12" fill="#1A56DB"/>
-              <rect x="11" y="9" width="5.5" height="28" rx="2.5" fill="white"/>
-              <polygon points="16.5,23 23,23 37,9 30.5,9" fill="white"/>
-              <polygon points="16.5,23 23,23 37,37 30.5,37" fill="white"/>
-              <circle cx="38.5" cy="37.5" r="4" fill="#22c55e"/>
-            </svg>
-            <div>
-              <p class="text-xl font-black tracking-tight text-white">KSI</p>
-              <p class="text-[9px] font-bold uppercase tracking-[0.3em] text-primary">Bangladesh</p>
-            </div>
-          </div>
+          <KSILogo :dark="true" />
           <p class="mt-5 text-sm leading-relaxed text-slate-400">
             KSI Bangladesh is a multi-sector company serving Agriculture, IT, Construction and Transportation across the country since 2010.
           </p>
@@ -102,7 +90,8 @@
   </footer>
 </template>
 
-<script setup></script>
+<script setup>
+import KSILogo from './KSILogo.vue'</script>
 
 <style scoped>
 .footer-link { color: #94a3b8; transition: color 0.15s; }
