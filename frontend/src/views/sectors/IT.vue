@@ -125,6 +125,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({
+  title: 'IT & Technology Services',
+  description: 'KSI Bangladesh delivers custom software development, cloud solutions, cybersecurity and digital transformation services for organizations across Bangladesh.',
+  keywords: 'IT services Bangladesh, software development, cloud solutions, cybersecurity, digital transformation KSI',
+  path: '/sectors/it',
+})
+
 const stats = [
   { value: '200+', label: 'Software Projects' },
   { value: '50+', label: 'Cloud Deployments' },

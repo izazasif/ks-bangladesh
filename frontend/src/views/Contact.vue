@@ -102,6 +102,14 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useSEO } from '../composables/useSEO'
+
+useSEO({
+  title: 'Contact Us',
+  description: 'Get in touch with KSI Bangladesh for project inquiries, consultations or partnership opportunities. We\'re based in Dhaka and serve all of Bangladesh.',
+  keywords: 'contact KSI Bangladesh, Dhaka office, project inquiry, consultation',
+  path: '/contact',
+})
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { submitContact } from '../api/contact'

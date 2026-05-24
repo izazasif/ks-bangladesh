@@ -182,6 +182,14 @@
 import BannerSlider from '../components/BannerSlider.vue'
 import SectorSlider from '../components/SectorSlider.vue'
 import PartnerLogoSlider from '../components/PartnerLogoSlider.vue'
+import { useSEO } from '../composables/useSEO'
+
+useSEO({
+  title: 'Multi-Sector Company in Bangladesh',
+  description: 'KSI Bangladesh delivers expert services in Agriculture, IT, Construction and Transportation. Serving businesses, NGOs and government bodies since 2010.',
+  keywords: 'KSI Bangladesh, multi-sector company, agriculture, IT, construction, transportation, Bangladesh',
+  path: '/',
+})
 
 const stats = [
   { value: '15+', label: 'Years of Experience' },

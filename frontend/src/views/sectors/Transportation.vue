@@ -125,6 +125,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({
+  title: 'Transportation & Logistics',
+  description: 'KSI Bangladesh provides fleet management, cargo logistics, route optimization and real-time tracking across all 64 districts of Bangladesh.',
+  keywords: 'transportation Bangladesh, logistics, fleet management, cargo delivery, route optimization, KSI transport',
+  path: '/sectors/transportation',
+})
+
 const stats = [
   { value: '64+', label: 'Districts Covered' },
   { value: '300+', label: 'Vehicles in Fleet' },

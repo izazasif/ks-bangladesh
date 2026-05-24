@@ -146,6 +146,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../composables/useSEO'
+
+useSEO({
+  title: 'About Us',
+  description: 'Learn about KSI Bangladesh — our history, mission, team and values as a leading multi-sector company serving Agriculture, IT, Construction and Transportation.',
+  keywords: 'about KSI Bangladesh, company history, mission, team, multi-sector Bangladesh',
+  path: '/about',
+})
+
 const stats = [
   { value: '15+', label: 'Years of Experience' },
   { value: '500+', label: 'Projects Completed' },

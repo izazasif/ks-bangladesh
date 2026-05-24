@@ -125,6 +125,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({
+  title: 'Construction Services',
+  description: 'KSI Bangladesh handles civil engineering, infrastructure works, project management and safety compliance for construction projects across Bangladesh.',
+  keywords: 'construction services Bangladesh, civil engineering, infrastructure, project management, KSI construction',
+  path: '/sectors/construction',
+})
+
 const stats = [
   { value: '120+', label: 'Projects Built' },
   { value: '500K+', label: 'Sq Metres Delivered' },

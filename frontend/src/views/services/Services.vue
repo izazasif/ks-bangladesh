@@ -88,6 +88,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({
+  title: 'Our Services',
+  description: 'Explore KSI Bangladesh\'s full range of services across Agriculture, IT, Construction and Transportation — tailored solutions for businesses, NGOs and government.',
+  keywords: 'KSI Bangladesh services, agriculture services, IT services, construction services, transportation logistics Bangladesh',
+  path: '/services',
+})
+
 const stats = [
   { value: '4', label: 'Core Sectors' },
   { value: '12+', label: 'Service Lines' },

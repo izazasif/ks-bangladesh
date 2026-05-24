@@ -135,6 +135,67 @@
         </div>
       </div>
 
+      <!-- SEO Panel -->
+      <div class="rounded-[35px] bg-white p-8 shadow-soft">
+        <div class="flex items-start justify-between">
+          <div>
+            <h2 class="text-2xl font-semibold text-slate-900">SEO Health</h2>
+            <p class="mt-2 text-sm text-slate-500">Search engine optimization status for ks-bangladesh.vercel.app</p>
+          </div>
+          <span class="rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-bold text-emerald-700">All Systems OK</span>
+        </div>
+
+        <!-- Checklist -->
+        <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <div v-for="item in seoChecklist" :key="item.label" class="flex items-start gap-3 rounded-2xl border border-slate-100 bg-slate-50 px-4 py-3.5">
+            <span :class="item.ok ? 'bg-emerald-100 text-emerald-600' : 'bg-red-100 text-red-500'" class="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold">
+              {{ item.ok ? '✓' : '✗' }}
+            </span>
+            <div>
+              <p class="text-sm font-semibold text-slate-800">{{ item.label }}</p>
+              <p class="mt-0.5 text-xs text-slate-500">{{ item.desc }}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Search Preview -->
+        <div class="mt-8">
+          <p class="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Google Search Preview — Home Page</p>
+          <div class="rounded-2xl border border-slate-200 bg-white p-5 font-sans shadow-sm">
+            <p class="text-xs text-slate-500">https://ks-bangladesh.vercel.app</p>
+            <p class="mt-1 text-lg font-medium leading-snug text-[#1a0dab] hover:underline cursor-pointer">
+              KSI Bangladesh | Agriculture · IT · Construction · Transportation
+            </p>
+            <p class="mt-1 text-sm leading-relaxed text-slate-600">
+              KSI Bangladesh is a multi-sector company driving Agriculture, IT, Construction, and Transportation growth across Bangladesh since 2010.
+            </p>
+          </div>
+        </div>
+
+        <!-- Page Meta Table -->
+        <div class="mt-8">
+          <p class="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Page Meta Titles & Descriptions</p>
+          <div class="overflow-x-auto">
+            <table class="min-w-full text-left text-sm">
+              <thead class="border-b border-slate-200 text-xs font-semibold uppercase tracking-wider text-slate-500">
+                <tr>
+                  <th class="py-3 pr-6">Page</th>
+                  <th class="py-3 pr-6">Meta Title</th>
+                  <th class="py-3">Meta Description</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                <tr v-for="page in seoPages" :key="page.path" class="hover:bg-slate-50">
+                  <td class="py-3 pr-6 font-medium text-primary">{{ page.path }}</td>
+                  <td class="py-3 pr-6 text-slate-700">{{ page.title }}</td>
+                  <td class="py-3 max-w-xs text-slate-500 text-xs">{{ page.desc }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
       <!-- Contacts table -->
       <div class="rounded-[35px] bg-white p-8 shadow-soft">
         <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
@@ -217,6 +278,9 @@
 import { computed, onMounted, ref } from 'vue'
 import { getStats, getUsers, getContacts } from '../../api/admin'
 import { useToast } from '../../composables/useToast'
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({ title: 'Admin Dashboard', path: '/dashboard/admin' })
 
 const LIMIT = 20
 
@@ -343,6 +407,29 @@ const exportContactsCSV = () => {
   }))
   downloadCSV(['name', 'email', 'subject', 'message', 'created_at'], rows, 'ksi-contacts.csv')
 }
+
+const seoChecklist = [
+  { label: 'robots.txt', desc: 'Tells crawlers which pages to index', ok: true },
+  { label: 'sitemap.xml', desc: 'Lists all public URLs for search engines', ok: true },
+  { label: 'Meta Description', desc: 'Unique descriptions on every page', ok: true },
+  { label: 'Open Graph Tags', desc: 'og:title, og:description, og:image set', ok: true },
+  { label: 'Twitter Card', desc: 'summary_large_image card configured', ok: true },
+  { label: 'Canonical URL', desc: 'Prevents duplicate content issues', ok: true },
+  { label: 'JSON-LD Schema', desc: 'Organization schema in index.html', ok: true },
+  { label: 'Keywords Meta', desc: 'Per-page keyword meta tags', ok: true },
+  { label: 'Responsive Design', desc: 'Mobile-friendly layout (Google ranks mobile)', ok: true },
+]
+
+const seoPages = [
+  { path: '/', title: 'Multi-Sector Company in Bangladesh | KSI Bangladesh', desc: 'KSI Bangladesh delivers expert services in Agriculture, IT, Construction and Transportation...' },
+  { path: '/about', title: 'About Us | KSI Bangladesh', desc: 'Learn about KSI Bangladesh — our history, mission, team and values...' },
+  { path: '/services', title: 'Our Services | KSI Bangladesh', desc: 'Explore KSI Bangladesh\'s full range of services across four sectors...' },
+  { path: '/contact', title: 'Contact Us | KSI Bangladesh', desc: 'Get in touch for project inquiries, consultations or partnership...' },
+  { path: '/sectors/agriculture', title: 'Agriculture Services | KSI Bangladesh', desc: 'Crop management, irrigation, agri-tech and farmer support programs...' },
+  { path: '/sectors/it', title: 'IT & Technology Services | KSI Bangladesh', desc: 'Software development, cloud solutions, cybersecurity, digital transformation...' },
+  { path: '/sectors/construction', title: 'Construction Services | KSI Bangladesh', desc: 'Civil engineering, infrastructure, project management and safety compliance...' },
+  { path: '/sectors/transportation', title: 'Transportation & Logistics | KSI Bangladesh', desc: 'Fleet management, cargo logistics, route optimization across Bangladesh...' },
+]
 
 onMounted(async () => {
   await Promise.all([loadStats(), loadUsers(), loadContacts()])

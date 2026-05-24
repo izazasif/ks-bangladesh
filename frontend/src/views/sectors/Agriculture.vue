@@ -125,6 +125,15 @@
 </template>
 
 <script setup>
+import { useSEO } from '../../composables/useSEO'
+
+useSEO({
+  title: 'Agriculture Services',
+  description: 'KSI Bangladesh provides crop management, smart irrigation, agri-tech data tools and farmer support programs across Bangladesh\'s rural communities.',
+  keywords: 'agriculture services Bangladesh, crop management, irrigation, agri-tech, farmer support KSI',
+  path: '/sectors/agriculture',
+})
+
 const stats = [
   { value: '10,000+', label: 'Acres Managed' },
   { value: '2,000+', label: 'Farmers Supported' },
