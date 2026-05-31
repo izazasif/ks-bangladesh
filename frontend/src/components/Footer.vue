@@ -45,10 +45,11 @@
         <div>
           <h3 class="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Our Sectors</h3>
           <ul class="space-y-3 text-sm">
-            <li><router-link to="/sectors/agriculture" class="footer-link">🌾 Agriculture</router-link></li>
-            <li><router-link to="/sectors/it" class="footer-link">💻 IT & Technology</router-link></li>
             <li><router-link to="/sectors/construction" class="footer-link">🏗️ Construction</router-link></li>
-            <li><router-link to="/sectors/transportation" class="footer-link">🚛 Transportation</router-link></li>
+            <li><router-link to="/sectors/supplier" class="footer-link">📦 Supplier</router-link></li>
+            <li><router-link to="/sectors/digital-content" class="footer-link">🎬 Digital Content</router-link></li>
+            <li><router-link to="/sectors/it" class="footer-link">💻 IT & Technology</router-link></li>
+            <li><router-link to="/sectors/agriculture" class="footer-link">🌾 Agriculture</router-link></li>
           </ul>
         </div>
 

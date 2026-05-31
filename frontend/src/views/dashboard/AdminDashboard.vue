@@ -421,14 +421,15 @@ const seoChecklist = [
 ]
 
 const seoPages = [
-  { path: '/', title: 'Multi-Sector Company in Bangladesh | KSI Bangladesh', desc: 'KSI Bangladesh delivers expert services in Agriculture, IT, Construction and Transportation...' },
+  { path: '/', title: 'Multi-Sector Company in Bangladesh | KSI Bangladesh', desc: 'KSI Bangladesh delivers expert services in 5 sectors since 2010...' },
   { path: '/about', title: 'About Us | KSI Bangladesh', desc: 'Learn about KSI Bangladesh — our history, mission, team and values...' },
-  { path: '/services', title: 'Our Services | KSI Bangladesh', desc: 'Explore KSI Bangladesh\'s full range of services across four sectors...' },
+  { path: '/services', title: 'Our Services | KSI Bangladesh', desc: 'Explore KSI Bangladesh\'s full range of services across five sectors...' },
   { path: '/contact', title: 'Contact Us | KSI Bangladesh', desc: 'Get in touch for project inquiries, consultations or partnership...' },
-  { path: '/sectors/agriculture', title: 'Agriculture Services | KSI Bangladesh', desc: 'Crop management, irrigation, agri-tech and farmer support programs...' },
-  { path: '/sectors/it', title: 'IT & Technology Services | KSI Bangladesh', desc: 'Software development, cloud solutions, cybersecurity, digital transformation...' },
   { path: '/sectors/construction', title: 'Construction Services | KSI Bangladesh', desc: 'Civil engineering, infrastructure, project management and safety compliance...' },
-  { path: '/sectors/transportation', title: 'Transportation & Logistics | KSI Bangladesh', desc: 'Fleet management, cargo logistics, route optimization across Bangladesh...' },
+  { path: '/sectors/supplier', title: 'Supplier & Procurement | KSI Bangladesh', desc: 'Strategic procurement, vendor management and materials supply...' },
+  { path: '/sectors/digital-content', title: 'Digital Content Services | KSI Bangladesh', desc: 'Content creation, social media management, video production and branding...' },
+  { path: '/sectors/it', title: 'IT & Technology Services | KSI Bangladesh', desc: 'Software development, cloud solutions, cybersecurity, digital transformation...' },
+  { path: '/sectors/agriculture', title: 'Agriculture Services | KSI Bangladesh', desc: 'Crop management, irrigation, agri-tech and farmer support programs...' },
 ]
 
 onMounted(async () => {

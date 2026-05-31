@@ -194,7 +194,7 @@ useSEO({
 const stats = [
   { value: '15+', label: 'Years of Experience' },
   { value: '500+', label: 'Projects Completed' },
-  { value: '4', label: 'Key Sectors' },
+  { value: '5', label: 'Key Sectors' },
   { value: '50+', label: 'Partner Organizations' },
 ]
 
@@ -228,11 +228,18 @@ const services = [
     link: '/sectors/construction',
   },
   {
-    icon: '🚚',
-    title: 'Logistics & Transport',
-    description: 'Fleet management, cargo solutions and optimized delivery networks.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/transportation',
+    icon: '📦',
+    title: 'Supplier',
+    description: 'Procurement, vendor management and materials supply for every project scale.',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80',
+    link: '/sectors/supplier',
+  },
+  {
+    icon: '🎬',
+    title: 'Digital Content',
+    description: 'Content creation, social media management and brand storytelling that drives results.',
+    image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=900&q=80',
+    link: '/sectors/digital-content',
   },
 ]
 

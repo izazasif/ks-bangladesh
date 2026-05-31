@@ -158,7 +158,7 @@ useSEO({
 const stats = [
   { value: '15+', label: 'Years of Experience' },
   { value: '500+', label: 'Projects Completed' },
-  { value: '4', label: 'Core Sectors' },
+  { value: '5', label: 'Core Sectors' },
   { value: '50+', label: 'Partner Organizations' },
 ]
 

@@ -148,10 +148,11 @@ const route = useRoute()
 const authStore = useAuthStore()
 
 const sectors = [
-  { name: 'Agriculture', icon: '🌾', link: '/sectors/agriculture' },
-  { name: 'IT', icon: '💻', link: '/sectors/it' },
   { name: 'Construction', icon: '🏗️', link: '/sectors/construction' },
-  { name: 'Transportation', icon: '🚛', link: '/sectors/transportation' },
+  { name: 'Supplier', icon: '📦', link: '/sectors/supplier' },
+  { name: 'Digital Content', icon: '🎬', link: '/sectors/digital-content' },
+  { name: 'IT', icon: '💻', link: '/sectors/it' },
+  { name: 'Agriculture', icon: '🌾', link: '/sectors/agriculture' },
 ]
 
 const isAuthenticated = computed(() => authStore.isAuthenticated)

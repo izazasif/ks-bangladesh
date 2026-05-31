@@ -98,7 +98,7 @@ useSEO({
 })
 
 const stats = [
-  { value: '4', label: 'Core Sectors' },
+  { value: '5', label: 'Core Sectors' },
   { value: '12+', label: 'Service Lines' },
   { value: '500+', label: 'Projects Done' },
   { value: '50+', label: 'Partners' },
@@ -142,15 +142,27 @@ const serviceGroups = [
     ],
   },
   {
-    sector: 'Transportation',
-    title: 'Transportation Services',
-    description: 'Efficient fleet operations, cargo planning and delivery tracking across all regions of Bangladesh.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/transportation',
+    sector: 'Supplier',
+    title: 'Supplier Services',
+    description: 'End-to-end procurement and supply chain solutions connecting vendors, materials and project sites across Bangladesh.',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80',
+    link: '/sectors/supplier',
     items: [
-      { icon: '📦', title: 'Logistics', details: 'Cargo handling and route optimization for timely, cost-efficient delivery.' },
-      { icon: '🚛', title: 'Fleet Management', details: 'Vehicle assignment, maintenance tracking and monitoring services.' },
-      { icon: '🛰️', title: 'Live Tracking', details: 'Real-time visibility and delivery confirmation for every shipment.' },
+      { icon: '🛒', title: 'Procurement', details: 'Strategic sourcing and purchasing for construction, agri and IT needs.' },
+      { icon: '🤝', title: 'Vendor Management', details: 'Qualified vendor networks with quality checks and performance tracking.' },
+      { icon: '🏭', title: 'Materials Supply', details: 'Reliable delivery of equipment, raw materials and consumables on time.' },
+    ],
+  },
+  {
+    sector: 'Digital Content',
+    title: 'Digital Content Services',
+    description: 'Creative content strategies, production and distribution to grow your brand\'s digital presence across Bangladesh.',
+    image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=900&q=80',
+    link: '/sectors/digital-content',
+    items: [
+      { icon: '✍️', title: 'Content Creation', details: 'Written, visual and video content tailored to your audience and goals.' },
+      { icon: '📱', title: 'Social Media', details: 'Full management of Facebook, LinkedIn and YouTube channels.' },
+      { icon: '🎨', title: 'Design & Branding', details: 'Graphic design, logo creation and visual brand identity systems.' },
     ],
   },
 ]

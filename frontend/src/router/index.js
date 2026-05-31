@@ -24,9 +24,14 @@ const routes = [
     component: () => import('../views/sectors/Construction.vue'),
   },
   {
-    path: '/sectors/transportation',
-    name: 'Transportation',
-    component: () => import('../views/sectors/Transportation.vue'),
+    path: '/sectors/supplier',
+    name: 'Supplier',
+    component: () => import('../views/sectors/Supplier.vue'),
+  },
+  {
+    path: '/sectors/digital-content',
+    name: 'DigitalContent',
+    component: () => import('../views/sectors/DigitalContent.vue'),
   },
   {
     path: '/dashboard/user',

@@ -156,8 +156,8 @@ const process = [
 ]
 
 const gallery = [
+  '/images/agri-canal-1.jpg',
+  '/images/agri-canal-2.jpg',
   'https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80',
 ]
 </script>
