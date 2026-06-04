@@ -13,7 +13,7 @@
           </p>
           <!-- Social icons -->
           <div class="mt-6 flex items-center gap-3">
-            <a href="#" aria-label="Facebook" class="social-icon">
+            <a href="https://www.facebook.com/share/1DhwRxtPxL/" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon">
               <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
             </a>
             <a href="#" aria-label="LinkedIn" class="social-icon">
@@ -59,19 +59,23 @@
           <ul class="space-y-4 text-sm">
             <li class="flex items-start gap-3">
               <span class="mt-0.5 text-base">📍</span>
-              <span class="text-slate-400">KSI Bangladesh HQ, Dhaka, Bangladesh</span>
+              <span class="text-slate-400">House/Flat#GA-5/1,5/2, Plot#GA-5/1,5/2, Mohakhali, Banani, Dhaka-1212</span>
             </li>
             <li class="flex items-center gap-3">
               <span class="text-base">📞</span>
-              <a href="tel:+8801234567890" class="footer-link">+880-1234-567890</a>
+              <a href="tel:+8801713266383" class="footer-link">+8801713266383</a>
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="text-base">📞</span>
+              <a href="tel:+8801729677233" class="footer-link">+8801729677233</a>
             </li>
             <li class="flex items-center gap-3">
               <span class="text-base">📧</span>
-              <a href="mailto:info@ksibangladesh.com" class="footer-link">info@ksibangladesh.com</a>
+              <a href="mailto:ksibd24@gmail.com" class="footer-link">ksibd24@gmail.com</a>
             </li>
             <li class="flex items-center gap-3">
-              <span class="text-base">🕐</span>
-              <span class="text-slate-400">Mon–Fri: 9AM – 6PM</span>
+              <span class="text-base">💬</span>
+              <a href="https://wa.me/8801713266383" target="_blank" rel="noopener" class="footer-link">WhatsApp: 01713266383</a>
             </li>
           </ul>
           <router-link to="/contact" class="mt-6 inline-flex rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-600">

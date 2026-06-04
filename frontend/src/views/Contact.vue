@@ -41,7 +41,7 @@
             <div id="map" class="h-80 w-full"></div>
             <div class="bg-white p-6">
               <h3 class="text-lg font-bold text-slate-900">KSI Bangladesh Headquarters</h3>
-              <p class="mt-1 text-sm text-slate-500">Dhaka, Bangladesh</p>
+              <p class="mt-1 text-sm text-slate-500">House/Flat#GA-5/1,5/2, Mohakhali, Banani, Dhaka-1212</p>
               <div class="mt-4 grid grid-cols-2 gap-3">
                 <div v-for="hour in hours" :key="hour.day" class="rounded-xl bg-slate-50 px-4 py-3">
                   <p class="text-xs font-semibold text-slate-500">{{ hour.day }}</p>
@@ -120,9 +120,9 @@ const sending = ref(false)
 const form = ref({ name: '', email: '', phone: '', subject: '', message: '', honeypot: '' })
 
 const contactInfo = [
-  { icon: '📍', label: 'Address', value: 'KSI Bangladesh HQ, Dhaka, Bangladesh' },
-  { icon: '📧', label: 'Email', value: 'info@ksibangladesh.com' },
-  { icon: '📞', label: 'Phone', value: '+880-1234-567890' },
+  { icon: '📍', label: 'Address', value: 'House/Flat#GA-5/1,5/2, Plot#GA-5/1,5/2, Mohakhali, Banani, Dhaka-1212' },
+  { icon: '📧', label: 'Email', value: 'ksibd24@gmail.com' },
+  { icon: '📞', label: 'Phone', value: '+8801713266383 / +8801729677233' },
 ]
 
 const hours = [
@@ -147,11 +147,11 @@ const handleSubmit = async () => {
 }
 
 onMounted(() => {
-  const map = L.map('map', { scrollWheelZoom: false }).setView([23.8103, 90.4125], 13)
+  const map = L.map('map', { scrollWheelZoom: false }).setView([23.7938, 90.4056], 15)
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors',
   }).addTo(map)
-  L.marker([23.8103, 90.4125]).addTo(map).bindPopup('<strong>KSI Bangladesh HQ</strong><br>Dhaka, Bangladesh').openPopup()
+  L.marker([23.7938, 90.4056]).addTo(map).bindPopup('<strong>KSI Bangladesh HQ</strong><br>Mohakhali, Banani, Dhaka-1212').openPopup()
 })
 </script>
 
