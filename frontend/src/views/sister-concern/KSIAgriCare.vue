@@ -39,8 +39,8 @@
           </div>
         </div>
         <div class="grid grid-cols-2 gap-4">
-          <img src="/images/agri-canal-1.jpg" alt="AgriCare field" class="h-56 w-full rounded-3xl object-cover shadow-soft" loading="lazy" />
-          <img src="/images/agri-canal-2.jpg" alt="AgriCare irrigation" class="mt-8 h-56 w-full rounded-3xl object-cover shadow-soft" loading="lazy" />
+          <img :src="'/images/agri-canal-1.jpg'" alt="AgriCare field" class="h-56 w-full rounded-3xl object-cover shadow-soft" loading="lazy" />
+          <img :src="'/images/agri-canal-2.jpg'" alt="AgriCare irrigation" class="mt-8 h-56 w-full rounded-3xl object-cover shadow-soft" loading="lazy" />
         </div>
       </div>
     </section>
