@@ -41,15 +41,17 @@
           </ul>
         </div>
 
-        <!-- Sectors -->
+        <!-- Business Units -->
         <div>
-          <h3 class="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Our Sectors</h3>
+          <h3 class="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">Business Unit</h3>
           <ul class="space-y-3 text-sm">
-            <li><router-link to="/sectors/construction" class="footer-link">🏗️ Construction</router-link></li>
-            <li><router-link to="/sectors/supplier" class="footer-link">📦 Supplier</router-link></li>
-            <li><router-link to="/sectors/digital-content" class="footer-link">🎬 Digital Content</router-link></li>
-            <li><router-link to="/sectors/it" class="footer-link">💻 IT & Technology</router-link></li>
-            <li><router-link to="/sectors/agriculture" class="footer-link">🌾 Agriculture</router-link></li>
+            <li><router-link to="/business-unit/first-class-contractor" class="footer-link">🏗️ First Class Contractor</router-link></li>
+            <li><router-link to="/business-unit/supplier" class="footer-link">📦 Supplier</router-link></li>
+            <li><router-link to="/business-unit/it" class="footer-link">💻 IT & Technology</router-link></li>
+            <li><router-link to="/business-unit/digital-content" class="footer-link">🎬 Digital Content</router-link></li>
+            <li><router-link to="/sister-concern/ksi-agricare" class="footer-link">🌾 KSI AgriCare</router-link></li>
+            <li><router-link to="/sister-concern/kazi-corporation" class="footer-link">🏢 Kazi Corporation</router-link></li>
+            <li><router-link to="/management" class="footer-link">👥 Management</router-link></li>
           </ul>
         </div>
 

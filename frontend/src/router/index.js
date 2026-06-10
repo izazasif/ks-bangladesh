@@ -6,6 +6,13 @@ const routes = [
   { path: '/services', name: 'Services', component: () => import('../views/services/Services.vue') },
   { path: '/about', name: 'About', component: () => import('../views/About.vue') },
   { path: '/contact', name: 'Contact', component: () => import('../views/Contact.vue') },
+  { path: '/management', name: 'Management', component: () => import('../views/Management.vue') },
+  { path: '/business-unit/first-class-contractor', name: 'FirstClassContractor', component: () => import('../views/business-unit/FirstClassContractor.vue') },
+  { path: '/business-unit/supplier', name: 'BusinessSupplier', component: () => import('../views/business-unit/BusinessSupplier.vue') },
+  { path: '/business-unit/it', name: 'BusinessIT', component: () => import('../views/sectors/IT.vue') },
+  { path: '/business-unit/digital-content', name: 'BusinessDigitalContent', component: () => import('../views/sectors/DigitalContent.vue') },
+  { path: '/sister-concern/ksi-agricare', name: 'KSIAgriCare', component: () => import('../views/sister-concern/KSIAgriCare.vue') },
+  { path: '/sister-concern/kazi-corporation', name: 'KaziCorporation', component: () => import('../views/sister-concern/KaziCorporation.vue') },
   { path: '/signup', name: 'SignUp', component: () => import('../views/SignUp.vue') },
   { path: '/login', name: 'Login', component: () => import('../views/Login.vue') },
   {

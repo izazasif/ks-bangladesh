@@ -144,6 +144,21 @@
       </div>
     </section>
 
+    <!-- Our Proud Clients -->
+    <section class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="text-sm font-bold uppercase tracking-[0.3em] text-primary">Trusted By</p>
+        <h2 class="mt-3 text-3xl font-extrabold text-slate-900 md:text-4xl">Our Proud Clients</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-slate-500">Organizations across Bangladesh that trust KSI for reliable, high-quality services.</p>
+      </div>
+      <div class="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6">
+        <div v-for="client in proudClients" :key="client.name" class="flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white px-4 py-6 shadow-sm transition hover:border-primary/40 hover:shadow-md">
+          <span class="text-3xl">{{ client.icon }}</span>
+          <p class="mt-3 text-center text-xs font-semibold text-slate-600">{{ client.name }}</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Partner Logo Slider -->
     <PartnerLogoSlider />
 
@@ -248,6 +263,15 @@ const features = [
   { icon: '📍', title: 'Nationwide Reach', description: 'Active projects across Dhaka, Chattogram, Rajshahi, Sylhet and rural Bangladesh.' },
   { icon: '🔗', title: 'Multi-Sector Solutions', description: 'Integrated services that create value across all four key industries.' },
   { icon: '💡', title: 'Client First', description: 'Full transparency, speed and measurable outcomes on every engagement.' },
+]
+
+const proudClients = [
+  { icon: '🏥', name: 'Hospitals & Clinics' },
+  { icon: '🎓', name: 'Universities' },
+  { icon: '🏫', name: 'Schools & Colleges' },
+  { icon: '🏭', name: 'Industrial Sector' },
+  { icon: '🏛️', name: 'Government Bodies' },
+  { icon: '🤝', name: 'NGOs & INGOs' },
 ]
 
 const imageStrip = [

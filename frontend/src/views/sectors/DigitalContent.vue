@@ -12,7 +12,7 @@
       <div class="absolute inset-0 flex flex-col justify-center px-6 sm:px-12 lg:px-24">
         <p class="text-sm font-bold uppercase tracking-[0.3em] text-primary">Our Sector</p>
         <h1 class="mt-3 max-w-2xl text-4xl font-extrabold leading-tight text-white md:text-5xl lg:text-6xl">Digital Content</h1>
-        <p class="mt-4 max-w-xl text-lg text-slate-300">Creative content, social media strategy and brand design — built to grow your audience and strengthen your presence.</p>
+        <p class="mt-4 max-w-xl text-lg text-slate-300">We create and provide digital content and documentary for government and private sector.</p>
         <div class="mt-8 flex flex-wrap gap-4">
           <router-link to="/contact" class="inline-flex rounded-full bg-primary px-8 py-4 text-sm font-bold text-white shadow-lg transition hover:bg-blue-700">Start a Project</router-link>
           <router-link to="/services" class="inline-flex rounded-full border border-white/40 px-8 py-4 text-sm font-bold text-white transition hover:bg-white/10">View All Services</router-link>
