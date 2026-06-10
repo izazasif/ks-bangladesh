@@ -164,10 +164,10 @@
           <div class="rounded-2xl border border-slate-200 bg-white p-5 font-sans shadow-sm">
             <p class="text-xs text-slate-500">https://ks-bangladesh.vercel.app</p>
             <p class="mt-1 text-lg font-medium leading-snug text-[#1a0dab] hover:underline cursor-pointer">
-              KSI Bangladesh | Agriculture · IT · Construction · Transportation
+              KSI Bangladesh | First Class Contractor · Supplier · Digital Content · IT · AgriCare
             </p>
             <p class="mt-1 text-sm leading-relaxed text-slate-600">
-              KSI Bangladesh is a multi-sector company driving Agriculture, IT, Construction, and Transportation growth across Bangladesh since 2010.
+              KSI Bangladesh delivers First Class Contractor, Supplier, Digital Content, IT and AgriCare services across Bangladesh since 2010.
             </p>
           </div>
         </div>
@@ -425,7 +425,7 @@ const seoPages = [
   { path: '/about', title: 'About Us | KSI Bangladesh', desc: 'Learn about KSI Bangladesh — our history, mission, team and values...' },
   { path: '/services', title: 'Our Services | KSI Bangladesh', desc: 'Explore KSI Bangladesh\'s full range of services across five sectors...' },
   { path: '/contact', title: 'Contact Us | KSI Bangladesh', desc: 'Get in touch for project inquiries, consultations or partnership...' },
-  { path: '/sectors/construction', title: 'Construction Services | KSI Bangladesh', desc: 'Civil engineering, infrastructure, project management and safety compliance...' },
+  { path: '/business-unit/first-class-contractor', title: 'First Class Contractor | KSI Bangladesh', desc: 'Civil infrastructure, roads & bridges, industrial establishment and canal excavation...' },
   { path: '/sectors/supplier', title: 'Supplier & Procurement | KSI Bangladesh', desc: 'Strategic procurement, vendor management and materials supply...' },
   { path: '/sectors/digital-content', title: 'Digital Content Services | KSI Bangladesh', desc: 'Content creation, social media management, video production and branding...' },
   { path: '/sectors/it', title: 'IT & Technology Services | KSI Bangladesh', desc: 'Software development, cloud solutions, cybersecurity, digital transformation...' },

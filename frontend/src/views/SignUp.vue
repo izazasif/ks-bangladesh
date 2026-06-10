@@ -70,10 +70,11 @@
                 <label class="field-label">Service Interest</label>
                 <select v-model="form.service_interest" class="input-field" required>
                   <option disabled value="">Select one</option>
-                  <option>Agriculture</option>
+                  <option>First Class Contractor</option>
+                  <option>Supplier</option>
+                  <option>Digital Content</option>
                   <option>IT</option>
-                  <option>Construction</option>
-                  <option>Transportation</option>
+                  <option>Agriculture</option>
                   <option>Multiple</option>
                 </select>
               </div>
@@ -125,8 +126,8 @@ const successMsg = ref('')
 const sectors = [
   { icon: '🌾', name: 'Agriculture', desc: 'Crop, irrigation & agri-tech' },
   { icon: '💻', name: 'IT', desc: 'Software & cloud solutions' },
-  { icon: '🏗️', name: 'Construction', desc: 'Civil & infrastructure' },
-  { icon: '🚛', name: 'Transportation', desc: 'Logistics & fleet' },
+  { icon: '🏗️', name: 'First Class Contractor', desc: 'Civil & infrastructure' },
+  { icon: '📦', name: 'Supplier', desc: 'Health equipment & more' },
 ]
 
 const form = ref({ name: '', mobile: '', email: '', password: '', purpose: '', service_interest: '', user_type: '' })

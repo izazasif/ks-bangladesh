@@ -75,18 +75,18 @@ const cards = [
     link: '/sectors/it',
   },
   {
-    sector: 'Construction',
-    title: 'Construction Projects',
-    description: 'Civil engineering, infrastructure planning and safe execution across Bangladesh.',
+    sector: 'First Class Contractor',
+    title: 'Infrastructure & Civil Works',
+    description: 'Civil infrastructure, roads & bridges, industrial establishment and canal excavation.',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/construction',
+    link: '/business-unit/first-class-contractor',
   },
   {
-    sector: 'Transportation',
-    title: 'Transportation Network',
-    description: 'Logistics, fleet management and cargo movement with intelligent route planning.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/transportation',
+    sector: 'Supplier',
+    title: 'Supply & Procurement',
+    description: 'Health equipment, surgical items, furniture and electronics for hospitals, schools and industry.',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80',
+    link: '/business-unit/supplier',
   },
 ]
 </script>

@@ -41,7 +41,7 @@
               <h2 class="mt-4 text-4xl font-extrabold leading-tight text-slate-900">
                 KSI Bangladesh is a multi-sector company committed to driving growth across Bangladesh.
               </h2>
-              <p class="mt-6 text-lg leading-relaxed text-slate-500">We support agriculture, IT, construction and transportation with integrated solutions designed for long-term impact, local economies and national priorities.</p>
+              <p class="mt-6 text-lg leading-relaxed text-slate-500">We support Agriculture, IT, First Class Contractor, Supplier and Digital Content with integrated solutions designed for long-term impact, local economies and national priorities.</p>
             </div>
             <div class="grid gap-5 sm:grid-cols-2">
               <div class="rounded-3xl border border-slate-200 bg-lightblue p-7">
@@ -52,7 +52,7 @@
               <div class="rounded-3xl bg-slate-950 p-7">
                 <div class="mb-3 text-2xl">🌟</div>
                 <h3 class="text-xl font-bold text-white">Vision</h3>
-                <p class="mt-3 text-slate-300">To be the trusted partner for growth in agriculture, technology, infrastructure and transportation nationwide.</p>
+                <p class="mt-3 text-slate-300">To be the trusted partner for growth in agriculture, technology, civil infrastructure, supply chain and digital content nationwide.</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@
     <section class="bg-primary py-16">
       <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
         <h2 class="text-3xl font-extrabold text-white">Ready to work with KSI Bangladesh?</h2>
-        <p class="mx-auto mt-4 max-w-xl text-blue-100">Whether you're in agriculture, IT, construction or transportation — we have a solution for you.</p>
+        <p class="mx-auto mt-4 max-w-xl text-blue-100">Whether you're in agriculture, IT, contractor services, supply or digital content — we have a solution for you.</p>
         <div class="mt-8 flex flex-wrap justify-center gap-3">
           <router-link to="/contact" class="inline-flex rounded-full bg-white px-8 py-4 text-sm font-bold text-primary shadow-lg transition hover:bg-slate-100">Contact Us</router-link>
           <router-link to="/services" class="inline-flex rounded-full border border-white/40 px-8 py-4 text-sm font-bold text-white transition hover:bg-white/10">View Services</router-link>
@@ -150,7 +150,7 @@ import { useSEO } from '../composables/useSEO'
 
 useSEO({
   title: 'About Us',
-  description: 'Learn about KSI Bangladesh — our history, mission, team and values as a leading multi-sector company serving Agriculture, IT, Construction and Transportation.',
+  description: 'Learn about KSI Bangladesh — our history, mission, team and values as a leading multi-sector company serving First Class Contractor, Supplier, Digital Content, IT and AgriCare.',
   keywords: 'about KSI Bangladesh, company history, mission, team, multi-sector Bangladesh',
   path: '/about',
 })
@@ -165,15 +165,15 @@ const stats = [
 const sectors = [
   { icon: '🌾', title: 'Agriculture', steps: ['Field Assessment', 'Crop Planning', 'Resource Allocation', 'Harvest Support', 'Post-harvest Logistics'] },
   { icon: '💻', title: 'IT', steps: ['Requirement Analysis', 'System Design', 'Development', 'Testing & QA', 'Deployment & Support'] },
-  { icon: '🏗️', title: 'Construction', steps: ['Site Survey', 'Blueprint & Design', 'Regulatory Approval', 'Construction', 'Inspection & Handover'] },
-  { icon: '🚛', title: 'Transportation', steps: ['Route Analysis', 'Fleet Assignment', 'Real-time Tracking', 'Delivery Confirmation', 'Reporting'] },
+  { icon: '🏗️', title: 'First Class Contractor', steps: ['Site Survey', 'Blueprint & Design', 'Regulatory Approval', 'Civil Works', 'Inspection & Handover'] },
+  { icon: '📦', title: 'Supplier', steps: ['Needs Assessment', 'Vendor Sourcing', 'Quality Check', 'Order & Delivery', 'Review'] },
 ]
 
 const team = [
   { initials: 'AN', name: 'Ayesha Noor', role: 'Chief Operations Officer', bio: 'Over 15 years leading cross-sector operations across Bangladesh with a focus on sustainable delivery.', color: 'bg-primary/10 text-primary' },
   { initials: 'MR', name: 'Mohammad Rafiq', role: 'Technical Director', bio: 'Software architect specialising in cloud infrastructure and digital transformation.', color: 'bg-emerald-100 text-emerald-700' },
   { initials: 'SZ', name: 'Sadia Zaman', role: 'Head of Project Management', bio: 'PMP-certified manager with a strong record delivering construction and agri-tech initiatives.', color: 'bg-purple-100 text-purple-700' },
-  { initials: 'KM', name: 'Kamal Mahmud', role: 'Logistics & Transportation Lead', bio: 'Expert in fleet management and supply chain optimisation across every region.', color: 'bg-amber-100 text-amber-700' },
+  { initials: 'KM', name: 'Kamal Mahmud', role: 'Supply Chain & Procurement Lead', bio: 'Expert in procurement, vendor management and supply chain optimisation across every region.', color: 'bg-amber-100 text-amber-700' },
 ]
 
 const values = [

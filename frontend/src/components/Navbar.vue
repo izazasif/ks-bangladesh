@@ -1,7 +1,7 @@
 <template>
   <!-- Top announcement bar -->
   <div class="hidden bg-slate-900 px-4 py-2 text-center text-xs text-slate-300 md:block">
-    🇧🇩 KSI Bangladesh — Construction · Supplier · Digital Content · IT · AgriCare &nbsp;
+    🇧🇩 KSI Bangladesh — First Class Contractor · Supplier · Digital Content · IT · AgriCare &nbsp;
     <router-link to="/contact" class="font-semibold text-primary underline underline-offset-2 hover:text-blue-400">Get in touch →</router-link>
   </div>
 

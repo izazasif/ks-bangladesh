@@ -59,10 +59,11 @@
           <div>
             <label class="field-label">Service Interest</label>
             <select v-model="form.service_interest" class="input-field" required>
-              <option value="Agriculture">Agriculture</option>
+              <option value="First Class Contractor">First Class Contractor</option>
+              <option value="Supplier">Supplier</option>
+              <option value="Digital Content">Digital Content</option>
               <option value="IT">IT</option>
-              <option value="Construction">Construction</option>
-              <option value="Transportation">Transportation</option>
+              <option value="Agriculture">Agriculture</option>
               <option value="Multiple">Multiple</option>
             </select>
           </div>

@@ -9,7 +9,7 @@
         <div class="lg:col-span-1">
           <KSILogo :dark="true" />
           <p class="mt-5 text-sm leading-relaxed text-slate-400">
-            KSI Bangladesh is a multi-sector company serving Agriculture, IT, Construction and Transportation across the country since 2010.
+            KSI Bangladesh is a multi-sector company serving Agriculture, IT, First Class Contractor, Supplier and Digital Content across Bangladesh since 2010.
           </p>
           <!-- Social icons -->
           <div class="mt-6 flex items-center gap-3">
@@ -91,7 +91,7 @@
     <div class="border-t border-slate-800">
       <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row sm:px-6 lg:px-8">
         <p class="text-xs text-slate-500">© 2025 KSI Bangladesh. All Rights Reserved.</p>
-        <p class="text-xs text-slate-600">Agriculture · IT · Construction · Transportation</p>
+        <p class="text-xs text-slate-600">First Class Contractor · Supplier · Digital Content · IT · AgriCare</p>
       </div>
     </div>
   </footer>

@@ -74,18 +74,18 @@ const slides = [
     link: '/sectors/it',
   },
   {
-    sector: 'Construction',
+    sector: 'First Class Contractor',
     title: "Building Bangladesh's Future",
-    subtitle: 'Civil engineering, infrastructure and project delivery — built safely and on schedule.',
+    subtitle: 'Civil infrastructure, roads & bridges, industrial establishment and canal excavation — delivered to the highest standards.',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80',
-    link: '/sectors/construction',
+    link: '/business-unit/first-class-contractor',
   },
   {
-    sector: 'Transportation',
-    title: 'Connecting Every Corner of Bangladesh',
-    subtitle: 'Reliable logistics, fleet management and cargo movement across every region.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1600&q=80',
-    link: '/sectors/transportation',
+    sector: 'Supplier',
+    title: 'Your Trusted Supply Partner',
+    subtitle: 'Health equipment, surgical items, furniture, electronics and promotional items supplied to hospitals, universities and industry.',
+    image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1600&q=80',
+    link: '/business-unit/supplier',
   },
 ]
 </script>

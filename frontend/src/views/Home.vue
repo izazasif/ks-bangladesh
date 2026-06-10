@@ -24,7 +24,7 @@
             A trusted multi-sector company driving growth across Bangladesh
           </h2>
           <p class="mt-6 text-lg leading-relaxed text-slate-500">
-            KSI Bangladesh delivers integrated solutions across agriculture, IT, construction and transportation — with a strong commitment to sustainable development and national progress.
+            KSI Bangladesh delivers integrated solutions across Agriculture, IT, First Class Contractor, Supplier and Digital Content — with a strong commitment to sustainable development and national progress.
           </p>
           <div class="mt-8 grid grid-cols-2 gap-5">
             <div v-for="point in aboutPoints" :key="point.title" class="flex items-start gap-3">
@@ -201,8 +201,8 @@ import { useSEO } from '../composables/useSEO'
 
 useSEO({
   title: 'Multi-Sector Company in Bangladesh',
-  description: 'KSI Bangladesh delivers expert services in Agriculture, IT, Construction and Transportation. Serving businesses, NGOs and government bodies since 2010.',
-  keywords: 'KSI Bangladesh, multi-sector company, agriculture, IT, construction, transportation, Bangladesh',
+  description: 'KSI Bangladesh delivers expert services in First Class Contractor, Supplier, Digital Content, IT and Agriculture. Serving businesses, NGOs and government bodies since 2010.',
+  keywords: 'KSI Bangladesh, multi-sector company, first class contractor, supplier, digital content, IT, agriculture, Bangladesh',
   path: '/',
 })
 
@@ -237,10 +237,10 @@ const services = [
   },
   {
     icon: '🏗️',
-    title: 'Construction',
-    description: 'Infrastructure planning, civil engineering and project supervision.',
+    title: 'First Class Contractor',
+    description: 'Civil infrastructure, roads & bridges, industrial establishment and canal excavation.',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/construction',
+    link: '/business-unit/first-class-contractor',
   },
   {
     icon: '📦',
@@ -277,7 +277,7 @@ const proudClients = [
 const imageStrip = [
   { label: 'Agriculture', image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80' },
   { label: 'IT & Technology', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80' },
-  { label: 'Construction', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80' },
-  { label: 'Transportation', image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80' },
+  { label: 'First Class Contractor', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80' },
+  { label: 'Supplier', image: 'https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=600&q=80' },
 ]
 </script>

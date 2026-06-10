@@ -92,8 +92,8 @@ import { useSEO } from '../../composables/useSEO'
 
 useSEO({
   title: 'Our Services',
-  description: 'Explore KSI Bangladesh\'s full range of services across Agriculture, IT, Construction and Transportation — tailored solutions for businesses, NGOs and government.',
-  keywords: 'KSI Bangladesh services, agriculture services, IT services, construction services, transportation logistics Bangladesh',
+  description: 'Explore KSI Bangladesh\'s full range of services — First Class Contractor, Supplier, Digital Content, IT and AgriCare — tailored solutions for businesses, NGOs and government.',
+  keywords: 'KSI Bangladesh services, first class contractor, supplier, digital content, IT services, agriculture Bangladesh',
   path: '/services',
 })
 
@@ -130,15 +130,15 @@ const serviceGroups = [
     ],
   },
   {
-    sector: 'Construction',
-    title: 'Construction Services',
-    description: 'End-to-end project delivery for institutional, residential and industrial works nationwide.',
+    sector: 'First Class Contractor',
+    title: 'First Class Contractor',
+    description: 'Civil infrastructure, roads & bridges, industrial establishment and canal excavation across Bangladesh.',
     image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
-    link: '/sectors/construction',
+    link: '/business-unit/first-class-contractor',
     items: [
-      { icon: '📐', title: 'Site Design', details: 'Blueprints, regulatory approvals and structural planning.' },
-      { icon: '👷', title: 'Project Management', details: 'Safety-led supervision and quality control for every stage.' },
-      { icon: '🚧', title: 'Infrastructure', details: 'Roads, buildings and civil works with local expertise.' },
+      { icon: '🛣️', title: 'Roads & Bridges', details: 'Design and construction of roads, highways and bridge structures.' },
+      { icon: '🏭', title: 'Industrial Establishment', details: 'Factory floors, industrial parks and commercial buildings.' },
+      { icon: '💧', title: 'Canal Excavation', details: 'Precision canal digging and waterway development.' },
     ],
   },
   {
